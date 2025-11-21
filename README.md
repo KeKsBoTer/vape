@@ -64,3 +64,21 @@ plt.savefig("test.png", bbox_inches="tight", pad_inches=0)
 plt.show()
 ```
 
+## Citation
+
+This package was developed as part of the [APEBench paper
+(arxiv.org/abs/2411.00180)](https://arxiv.org/abs/2411.00180) (accepted at
+NeurIPS 2024). If you find it useful for your research, please consider citing
+it:
+
+```bibtex
+@article{koehler2024apebench,
+  title={{APEBench}: A Benchmark for Autoregressive Neural Emulators of {PDE}s},
+  author={Felix Koehler and Simon Niedermayr and R{\"}udiger Westermann and Nils Thuerey},
+  journal={Advances in Neural Information Processing Systems (NeurIPS)},
+  volume={38},
+  year={2024}
+}
+```
+
+(Feel free to also give the project a star on GitHub if you like it.)
